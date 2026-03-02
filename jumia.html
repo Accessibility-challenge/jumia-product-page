@@ -26,6 +26,26 @@
     <meta name="theme-color" content="#ffffff">
     <link rel="manifest" crossorigin="use-credentials" href="https://www.jumia.com.ng/assets_he/manifest/jumia/ng.2bc74913.json">
     <link rel="stylesheet" href="./jumia_files/main.d6013604.css">
+
+    <style>
+        /* This ensures the skip link is functional and looks good */
+        .skip-link {
+            position: absolute;
+            top: -100%; /* Hidden by default */
+            left: 0;
+            background: #f68b1e; /* Jumia Orange */
+            color: #fff;
+            padding: 10px 20px;
+            z-index: 1000;
+            text-decoration: none;
+            font-weight: bold;
+            transition: top 0.3s;
+        }
+        .skip-link:focus {
+            top: 0; /* Shows up when user presses Tab */
+        }
+    </style>
+
     <link rel="icon" type="image/ico" sizes="any" href="https://www.jumia.com.ng/assets_he/favicon.87f00114.ico">
     <link rel="icon" type="image/svg+xml" href="https://www.jumia.com.ng/assets_he/favicon.adbd556a.svg">
     <link rel="preconnect dns-prefetch" href="https://bam.nr-data.net/">
@@ -33,6 +53,19 @@
     <link rel="dns-prefetch" href="https://ng.jumia.is/">
 </head>
 <body>
+<a href="#main-product-content" class="skip-link">Skip to main content</a>
+<header>
+        </header>
+ 
+  <main id="main-product-content">
+        <section class="product-header">
+            <h1>Samsung GALAXY Z FOLD 6 5G</h1>
+            <p>7.6" 12GB RAM, 512GB ROM - Large Screen</p>
+        </section>
+
+        <section class="product-details">
+            </section>
+      </main>
 <!-- Skip to main content link - Phase 2, Step 3 -->
 <a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #000; color: white; padding: 8px; z-index: 100; text-decoration: none;">Skip to main content</a>
 
